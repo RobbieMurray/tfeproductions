@@ -12,20 +12,20 @@ const FeatureSection = () => {
     <div className="max-w-7xl mx-auto">
       <Fade bottom cascade>
         <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row content-center justify-center align-middle text-center">
-          <div className="w-1/3 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-black text-2xl">Performance</h3>
+          <div className="w-1/3 bg-lightgray  p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
+            <h3 className="text-black text-2xl">Ideation</h3>
             <h4 className="mt-10 text-black  opacity-70 text-xl">95+</h4>
           </div>
 
-          <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-white text-2xl">Accessibility</h3>
+          <div className="w-1/3 bg-offblack p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
+            <h3 className="text-white text-2xl">Production</h3>
             <h4 className="mt-10 text-white opacity-70 text-xl">100</h4>
           </div>
-          <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-white text-2xl">Best Practices</h3>
+          <div className="w-1/3 bg-offblack p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
+            <h3 className="text-white text-2xl">Packaging</h3>
             <h4 className="mt-10 text-white opacity-70 text-xl">100</h4>
           </div>
-          <div className="lg:rounded-xl lg:w-1/3 lg:bg-dp bg-dp p-8 rounded-xl m-5 xxs:w-full xxs:bg-dp xxs:rounded-xl xs:w-full xs:bg-dp xs:rounded-xl sm:hidden md:hidden lg:block">
+          <div className="lg:rounded-xl lg:w-1/3 lg:bg-offblack bg-offblack p-8 rounded-xl m-5 xxs:w-full xxs:bg-offblack xxs:rounded-xl xs:w-full xs:bg-offblack xs:rounded-xl sm:hidden md:hidden lg:block">
             <h3 className="text-white text-2xl">SEO</h3>
             <h4 className="mt-10 text-white opacity-70 text-xl">100</h4>
           </div>
@@ -44,11 +44,11 @@ const FeatureSection = () => {
 
           <div className="lg:w-1/2 sm:text-center lg:text-right flex flex-col justify-center">
             <h2 className="text-black text-4xl font-semibold">PERFORMANCE</h2>
-            <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
+            <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-white">
               Time to unlock new speeds
             </h3>
 
-            <p className="mt-3 text-base text-black-70 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-auto lg:mr-0">
+            <p className="mt-3 text-white sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-auto lg:mr-0">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s.
@@ -58,7 +58,7 @@ const FeatureSection = () => {
               <div className="rounded-md">
                 <a
                   href="tel:#"
-                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-black border border-purple hover:bg-transparent md:text-lg md:px-10"
+                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-yellow text-black hover:text-white border border-yellow hover:bg-transparent md:text-lg md:px-10"
                 >
                   Call Us Now
                 </a>
@@ -66,7 +66,7 @@ const FeatureSection = () => {
               <div className="mt-3 sm:mt-0 sm:ml-3">
                 <a
                   href="/gallery"
-                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 border border-purple text-base font-medium rounded-md text-black hover:text-white bg-transparent hover:bg-purple md:py-3 md:text-lg md:px-10"
+                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 border border-yellow text-base font-medium rounded-md text-white hover:text-black bg-transparent hover:bg-yellow md:py-3 md:text-lg md:px-10"
                 >
                   View Gallery
                   <svg
@@ -93,7 +93,7 @@ const FeatureSection = () => {
 
       <Fade bottom cascade>
         <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row">
-          <div className="w-2/6 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-2/6">
+          <div className="w-2/6 bg-lightgray p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-2/6">
             <span className="text-black font-semibold font-montserrat text-4xl">
               TECH STACK
             </span>
@@ -115,7 +115,7 @@ const FeatureSection = () => {
             </div>
           </div>
 
-          <div className="w-4/6 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-4/6">
+          <div className="w-4/6 bg-offblack p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-4/6">
             <h2 className="text-white text-4xl">
               Start building amazing web experiences
             </h2>
@@ -136,13 +136,13 @@ const FeatureSection = () => {
       </Fade>
 
       <div className="mt-10 px-8">
-        <h2 className="text-black text-4xl font-semibold opacity-70">
+        <h2 className="text-white text-4xl font-semibold opacity-75">
           OPEN SOURCE
         </h2>
-        <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
+        <h3 className="text-white text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl">
           A React based framework
         </h3>
-        <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
+        <p className="text-white opacity-75 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s, when an unknown printer took a galley of type and
@@ -156,13 +156,13 @@ const FeatureSection = () => {
       </div>
 
       <div className="mt-10 px-8">
-        <h2 className="text-black text-4xl font-semibold opacity-70">
+        <h2 className="text-white text-4xl font-semibold opacity-75">
           INTEGRATIONS
         </h2>
-        <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
+        <h3 className="text-white text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl ">
           Discover and connect
         </h3>
-        <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
+        <p className="text-white opacity-75 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s, when an unknown printer took a galley of type and
@@ -177,7 +177,7 @@ const FeatureSection = () => {
           <div className="rounded-md">
             <a
               href="/contact/"
-              className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-black border border-purple hover:bg-transparent md:text-lg md:px-10"
+              className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-yellow text-black hover:text-white border border-yellow hover:bg-transparent md:text-lg md:px-10"
             >
               Send Enquiry
             </a>
@@ -201,18 +201,18 @@ const FeatureSection = () => {
 
       <Fade bottom cascade>
         <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row content-center justify-center align-middle text-center">
-          <div className="w-1/3 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
+          <div className="w-1/3 bg-lightgray p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
             <h3 className="text-black text-2xl">v1.0.0</h3>
             <h4 className="mt-10 text-black opacity-70 text-xl">Released</h4>
           </div>
 
-          <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
+          <div className="w-1/3 bg-offblack p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
             <h3 className="text-white text-2xl">Fork</h3>
             <h4 className="mt-10 text-white opacity-70 text-xl">
               PR's welcome
             </h4>
           </div>
-          <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
+          <div className="w-1/3 bg-offblack p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
             <h3 className="text-white text-2xl">Stars</h3>
             <h4 className="mt-10 text-white opacity-70 text-xl">
               Give support
@@ -222,7 +222,7 @@ const FeatureSection = () => {
       </Fade>
       {/* 
       <div className="mt-10 px-8">
-        <h2 className="text-black text-4xl font-semibold text-gradient bg-gradient-to-r from-pink to-purple">
+        <h2 className="text-black text-4xl font-semibold text-gradient bg-lightgray">
           {" "}
           Integrations
         </h2>
@@ -244,7 +244,7 @@ const FeatureSection = () => {
           <div className="rounded-md">
             <a
               href="/contact/"
-              className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-purple border border-purple hover:bg-transparent md:text-lg md:px-10"
+              className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-yellow text-white hover:text-yellow border border-yellow hover:bg-transparent md:text-lg md:px-10"
             >
               Send Enquiry
             </a>

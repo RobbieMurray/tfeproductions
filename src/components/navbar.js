@@ -9,53 +9,51 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="w-full justify-between flex items-center">
             <a
-              className="text-black flex-shrink-0 font-montserrat font-semibold"
+              className="text-white flex-shrink-0 font-montserrat font-semibold"
               href="/"
             >
-              <span className="text-gradient bg-gradient-to-r from-pink to-purple font-semibold">
-                HOLO
-              </span>
+              <span className="text-white font-semibold">TFE</span>
             </a>
             <div className="hidden md:block">
               <div className="ml-10 flex items-center space-x-4">
                 <Link
-                  className="relative after:rounded after:bg-purple after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 text-black opacity-70 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-montserrat"
+                  className="relative after:rounded after:bg-yellow after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 text-white opacity-70 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-montserrat"
                   to="/"
                 >
                   Home
                 </Link>
                 <Link
-                  className="relative after:rounded after:bg-purple after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 text-black opacity-70 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-montserrat"
+                  className="relative after:rounded after:bg-yellow after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 text-white opacity-70 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-montserrat"
                   to="/about"
                 >
                   About
                 </Link>
 
                 <Link
-                  className="relative after:rounded after:bg-purple after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 text-black opacity-70 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-montserrat"
+                  className="relative after:rounded after:bg-yellow after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 text-white opacity-70 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-montserrat"
                   to="/gallery"
                 >
-                  Gallery
+                  Services
                 </Link>
                 <Link
-                  className="relative after:rounded after:bg-purple after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 text-black opacity-70 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-montserrat"
+                  className="relative after:rounded after:bg-yellow after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 text-white opacity-70 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-montserrat"
+                  to="/gallery"
+                >
+                  How We Work
+                </Link>
+                <Link
+                  className="relative after:rounded after:bg-yellow after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 text-white opacity-70 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-montserrat"
                   to="/blog"
                 >
                   Blog
                 </Link>
-                <Link
-                  className="relative after:rounded after:bg-purple after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 text-black opacity-70 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-montserrat"
-                  to="/contact"
-                >
-                  Contact
-                </Link>
                 <div className="items-center">
-                  <a
-                    href="tel:#"
-                    className="transition-all duration-500ms ease-in-out hover:ease-in-out bg-transparent mt-5 py-2.5 px-4 text-base font-medium text-center text-black rounded-lg border border-purple hover:text-white border-black  hover:bg-purple"
+                  <Link
+                    className="transition-all duration-500ms ease-in-out hover:ease-in-out bg-transparent mt-5 py-2.5 px-4 text-base font-medium text-center text-white rounded-lg border border-yellow hover:text-black border-black  hover:bg-yellow"
+                    to="/contact"
                   >
-                    Call Us Now
-                  </a>
+                    Contact
+                  </Link>
                 </div>
               </div>
             </div>
@@ -87,32 +85,32 @@ const Navbar = () => {
         <div className="transition duration-1000 ease-in-out md:hidden">
           <div className="md-px-2 pt-2 pb-3 space-y-1 sm:px-3 transition duration-1000 ease-in-out">
             <a
-              className="text-black opacity-50 hover:opacity-100 px-3 py-3 rounded-md text-m font-medium font-montserrat"
+              className="text-black opacity-75 hover:opacity-100 px-3 py-3 rounded-md text-m font-medium font-montserrat"
               href="/"
             >
               Home
             </a>
             <a
-              className="text-black opacity-50 hover:opacity-100 px-3 py-3 rounded-md text-m font-medium font-montserrat"
+              className="text-black opacity-75 hover:opacity-100 px-3 py-3 rounded-md text-m font-medium font-montserrat"
               href="/about"
             >
               About
             </a>
 
             <a
-              className="text-black opacity-50 hover:opacity-100 px-3 py-3 rounded-md text-m font-medium font-montserrat"
+              className="text-black opacity-75 hover:opacity-100 px-3 py-3 rounded-md text-m font-medium font-montserrat"
               href="/gallery"
             >
               Gallery
             </a>
             <a
-              className="text-black opacity-50 hover:opacity-100 px-3 py-3 rounded-md text-m font-medium font-montserrat"
+              className="text-black opacity-75 hover:opacity-100 px-3 py-3 rounded-md text-m font-medium font-montserrat"
               href="/blog"
             >
               Blog
             </a>
             <a
-              className="text-black opacity-50 hover:opacity-100 px-3 py-3 rounded-md text-m font-medium font-montserrat"
+              className="text-black opacity-75 hover:opacity-100 px-3 py-3 rounded-md text-m font-medium font-montserrat"
               href="/contact"
             >
               Contact

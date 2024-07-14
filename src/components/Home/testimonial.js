@@ -14,9 +14,9 @@ const Testimonial = () => {
               type and scrambled it to make a type specimen book."
             </div>
             <div className="mt-10">
-              <h3 className="text-black text-2xl font-smibold">Lorem Ipsum</h3>
+              <h3 className="text-black text-2xl font-smibold">Alex Hackel</h3>
               <p className="text-black text-sm font-semibold opacity-50">
-                Google review
+                Professional Free Skier
               </p>
             </div>
           </div>

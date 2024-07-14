@@ -71,7 +71,7 @@ const BlogPost = props => {
         <div className="flex justify-between px-4 mx-auto max-w-screen-xl ">
           <article className="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
             <header className="mb-4 lg:mb-6 not-format">
-              <h1 className="mb-4 text-3xl font-extrabold leading-tight text-[#000000] lg:mb-6 lg:text-4xl dark:text-black">
+              <h1 className="mb-4 text-3xl font-extrabold leading-tight text-white lg:mb-6 lg:text-4xl dark:text-black">
                 {post.frontmatter.title}
               </h1>
             </header>
@@ -84,14 +84,14 @@ const BlogPost = props => {
                 />
               </div>
             )}
-            <p className="text-base text-gray-500 dark:text-gray-400 lg:mb-2">
+            <p className="text-base text-white dark:text-gray-400 lg:mb-2">
               <time dateTime={isoDate} title={titlaDate}>
                 {formattedDate}
               </time>
             </p>
 
             <StyledDiv
-              className="post-content-body text-[#000000]"
+              className="post-content-body text-white"
               dangerouslySetInnerHTML={{ __html: post.html }}
             />
             <div className="flex items-center justify-between pt-8">
@@ -100,9 +100,9 @@ const BlogPost = props => {
                   style={{
                     display: previousLinkStatus ? "flex" : "none",
                     alignItems: "center",
-                    color: "#131313",
+                    color: "#white",
                   }}
-                  className="text-base	"
+                  className="text-white	"
                   href={previousSlug}
                 >
                   <img src={LeftIcon} alt="LeftIcon" width={30} height={30} />
@@ -121,9 +121,9 @@ const BlogPost = props => {
                   style={{
                     display: nextLinkStatus ? "flex" : "none",
                     alignItems: "center",
-                    color: "#131313",
+                    color: "#ffffff",
                   }}
-                  className="text-base	"
+                  className="text-white	"
                   href={nextSlug}
                 >
                   <span>

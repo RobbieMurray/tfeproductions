@@ -1,7 +1,7 @@
 {
-  "name": "Holo-Gatsby-Theme",
+  "name": "TFE Productions",
   "private": true,
-  "description": "Holo is a visually striking and highly customizable open source theme built on the powerful Gatsby framework and integrated with the versatile Decap CMS.",
+  "description": "TFE Productions is a a YouTube Focused, Production Agency.",
   "version": "1.0.0",
   "author": "Travis Lord <hi@travislord.xyz>",
   "dependencies": {

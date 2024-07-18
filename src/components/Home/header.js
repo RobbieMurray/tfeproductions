@@ -1,7 +1,7 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 
-import hero from "../../images/removed-Holographic.webp"
+import hero from "../../images/tfeprodlogow.webp"
 
 const Header = () => {
   return (
@@ -13,14 +13,18 @@ const Header = () => {
               TFE Productions
             </h1>
             <h2 className="text-white text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl">
-              Hi there!
+              YouTube Agency
             </h2>
 
             <p className="mt-3 text-white sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-              I'm a streamlined, lightweight theme starter kit crafted on
-              Gatsby. My design marries minimalist elegance with contemporary
-              flair, offering an unparalleled aesthetic experience for the
-              modern web.
+              At TFE Productions, we specialize in crafting high-quality YouTube
+              content that captivates and engages audiences. Our services
+              encompass every aspect of the production process, from ideation
+              and scripting to filming, editing, and optimization. Whether
+              you’re a brand looking to expand your digital presence or an
+              influencer aiming to grow your channel, our expert team is
+              dedicated to bringing your vision to life with creativity and
+              precision.
             </p>
 
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
@@ -60,7 +64,7 @@ const Header = () => {
 
           <div className="lg:inset-y-0 lg:right-0 lg:w-1/2 my-4 flex lg:justify-end justify-center">
             <img
-              className="rounded-xl w-auto h-full object-cover flex justify-center"
+              className="w-auto h-full object-cover flex justify-center"
               src={hero}
               alt=""
             ></img>

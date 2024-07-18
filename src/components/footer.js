@@ -24,25 +24,14 @@ const Footer = () => {
               </p>
               <div className="text-black font-bold block-inline">
                 <p>
-                  <a className="text-black font-bold block-inline" href="/">
-                    Holo
-                  </a>
-
                   <a
-                    className="text-black font-semibold ml-1"
-                    target="_blank"
-                    href="https://travislord.xyz"
-                  >
-                    By TL
-                  </a>
-                  <a
-                    href="https://github.com/lilxyzz/holo-theme"
+                    href="https://instagram.com/the_flying_englishman"
                     target="_blank"
                   >
                     <img
                       className="w-5 h-5 mt-1"
                       src="/img/Github-Logo.png"
-                      alt="GitHub"
+                      alt="instagram"
                     ></img>
                   </a>
                 </p>

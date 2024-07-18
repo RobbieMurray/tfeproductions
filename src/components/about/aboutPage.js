@@ -22,22 +22,38 @@ const WorkPage = () => {
 
       <Fade bottom cascade>
         <div className="mt-10  flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row content-center justify-center align-middle text-center">
-          <div className="w-1/3 bg-lightgray from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-black text-2xl">Ideation</h3>
-            <h4 className="mt-10 text-black opacity-70 text-xl">95+</h4>
+          <div className="group transition-all duration-500ms ease-in-out hover:ease-in-out w-1/3 bg-offblack p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3 hover:bg-lightgray hover:text-black">
+            <h3 className="text-white transition-all duration-500ms ease-in-out hover:ease-in-out group-hover:text-black text-2xl">
+              Ideation
+            </h3>
+            <h4 className="mt-10 text-white opacity-70 transition-all duration-500ms ease-in-out hover:ease-in-out group-hover:text-black group-hover:opacity-100 text-xl">
+              Something something about Ideation
+            </h4>
           </div>
 
-          <div className="w-1/3 bg-offblack p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-white text-2xl">Production</h3>
-            <h4 className="mt-10 text-white opacity-70 text-xl">100</h4>
+          <div className="group transition-all duration-500ms ease-in-out hover:ease-in-out w-1/3 bg-offblack p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3 hover:bg-lightgray">
+            <h3 className="text-white transition-all duration-500ms ease-in-out hover:ease-in-out group-hover:text-black text-2xl">
+              Production
+            </h3>
+            <h4 className="mt-10 text-white opacity-70 transition-all duration-500ms ease-in-out hover:ease-in-out group-hover:text-black group-hover:opacity-100 text-xl">
+              Something something about production
+            </h4>
           </div>
-          <div className="w-1/3 bg-offblack p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-white text-2xl">Packaging</h3>
-            <h4 className="mt-10 text-white opacity-70 text-xl">100</h4>
+          <div className="group transition-all duration-500ms ease-in-out hover:ease-in-out w-1/3 bg-offblack p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3 hover:bg-lightgray">
+            <h3 className="text-white transition-all duration-500ms ease-in-out hover:ease-in-out group-hover:text-black text-2xl">
+              Packaging
+            </h3>
+            <h4 className="mt-10 text-white opacity-70 transition-all duration-500ms ease-in-out hover:ease-in-out group-hover:text-black group-hover:opacity-100 text-xl">
+              Something something about packaging
+            </h4>
           </div>
-          <div className="lg:rounded-xl lg:w-1/3 lg:bg-offblack bg-offblack p-8 rounded-xl m-5 xxs:w-full xxs:bg-dp xxs:rounded-xl xs:w-full xs:bg-dp xs:rounded-xl sm:hidden md:hidden lg:block">
-            <h3 className="text-white text-2xl">Release</h3>
-            <h4 className="mt-10 text-white opacity-70 text-xl">100</h4>
+          <div className="group transition-all duration-500ms ease-in-out hover:ease-in-out w-1/3 bg-offblack p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3 hover:bg-lightgray">
+            <h3 className="text-white transition-all duration-500ms ease-in-out hover:ease-in-out group-hover:text-black text-2xl">
+              SEO
+            </h3>
+            <h4 className="mt-10 text-white opacity-70 transition-all duration-500ms ease-in-out hover:ease-in-out group-hover:text-black group-hover:opacity-100 text-xl">
+              something something about SEO
+            </h4>
           </div>
         </div>
       </Fade>
@@ -49,15 +65,21 @@ const WorkPage = () => {
         </h3>
 
         <p className="text-white opacity-75 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
+          TFE Productions is a group of like minded individuals, with a passion
+          for learning, media production, and snowsports. Having found a major
+          gap in popular media in regards to skiing and snowboarding content,
+          especially on YouTube, it became our goal(mission?) to help fill that
+          gap. We’ve started by working together with companies, resorts, and
+          professional athletes to help elevate their brand’s reach, short and
+          long form content, and even ads(?) for everyone in the snowsports
+          community to enjoy. So far we’ve helped our professional athlete
+          clients build their YT channels by ___ amount, with a combined total
+          of ___ views. We’ve also feature resort’s and their freestyle parks on
+          our TFE Park Tours channel, worked with product companies to level up
+          their ad and branding content, and in some cases bridge them together
+          making __(adj.)___, compelling collaborations. Though, the ultimate
+          part of working in this domain is continuous learning and teaching
+          others through our partnership.
         </p>
       </div>
     </div>

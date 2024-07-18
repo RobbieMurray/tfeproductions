@@ -15,8 +15,8 @@ const AboutHeader = () => {
             Who is TFE Productions?
           </h1>
           <h2 className="text-white text-6xl font-semibold leading-snug xxs:text-lg xs:text-lg sm:text-3xl lg:text-6xl">
-            A production agency with a love for action sports, stories and
-            education.
+            A production agency with a love for YouTube, action sports, stories
+            and education.
           </h2>
         </div>
       </div>

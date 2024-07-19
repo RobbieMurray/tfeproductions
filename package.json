@@ -1,7 +1,7 @@
 {
-  "name": "TFE Productions",
+  "name": "tfeproductions",
   "private": true,
-  "description": "TFE Productions is a a YouTube Focused, Production Agency.",
+  "description": "TFE Productions is a YouTube Focused, Production Agency.",
   "version": "1.0.0",
   "author": "Travis Lord <hi@travislord.xyz>",
   "dependencies": {

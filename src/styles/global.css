@@ -19,6 +19,10 @@ a {
   font-size: 1rem !important;
 }
 
+.bg-custom-size {
+  background-size: 1500px 843.75px; /* Adjust this size as needed */
+}
+
 @layer base {
   a {
     color: white;

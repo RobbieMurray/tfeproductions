@@ -12,11 +12,11 @@ const FeaturedBlog = () => {
           <h3 className="text-white pl-4 text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl">
             Latest Posts
           </h3>
-          <div className="blog-hover bg-lightgray border mt-10 border-lightgray rounded-lg p-8 md:p-12 mb-8">
-            <h2 className="text-black text-3xl font-simibold mb-2">
+          <div className="blog-hover bg-offblack border mt-10 border-offblack rounded-lg p-8 md:p-12 mb-8">
+            <h2 className="text-white text-3xl font-simibold mb-2">
               YouTube Fundamentals
             </h2>
-            <p className="text-lg  text-black opacity-60 mb-6">
+            <p className="text-lg  text-white opacity-60 mb-6">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
@@ -24,7 +24,7 @@ const FeaturedBlog = () => {
             </p>
             <a
               href="/blog/blog-post"
-              className="transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-black hover:text-black  rounded-lg border border-yellow  hover:bg-yellow"
+              className="transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-white hover:text-black  rounded-lg border border-yellow  hover:bg-yellow"
             >
               Continue Reading
               <svg

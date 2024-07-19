@@ -19,12 +19,12 @@ const BlogsContainer = ({ data }) => {
   // const image = getImage(post.node.frontmatter.featuredimage)
 
   return (
-    <div className="max-w-7xl mx-auto mt-10 px-8 text-black">
+    <div className="max-w-7xl mx-auto mt-10 px-8 text-white">
       <Fade bottom cascade>
         <div className="grid grid-cols-3 gap-4 xxs:grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
           {posts.map((blog, i) => (
             <div key={i}>
-              <div className="overflow-hidden  rounded-xl xxs:w-full ">
+              <div className="overflow-hidden text-white rounded-xl xxs:w-full ">
                 <Link
                   to={blog.slug}
                   style={{
@@ -52,7 +52,7 @@ const BlogsContainer = ({ data }) => {
                     color: "black",
                   }}
                 >
-                  <h1 className="text-2xl font-simibold mt-2 mb-4">
+                  <h1 className="text-2xl text-white font-simibold mt-2 mb-4">
                     {blog.title}
                   </h1>
                 </Link>
@@ -70,7 +70,15 @@ const BlogsContainer = ({ data }) => {
         <h3 className="text-lg mt-2 opacity-60 text-white text-center">
           Subscribe to our newsletter, we will only send the important stuff.
         </h3>
-        <div className="text-black hover:text-white mt-10 flex flex-col items-center justify-center">
+        <form
+          className="text-black hover:text-white mt-10 flex flex-col items-center justify-center"
+          name="emaillist"
+          method="POST"
+          netlify-honeypot="bot-field"
+          data-netlify="true"
+        >
+          <input type="hidden" name="form-name" value="contact" />
+          <input type="hidden" name="bot-field" />
           <Input placeholder="Enter your email"></Input>
           <a
             href="#"
@@ -78,7 +86,7 @@ const BlogsContainer = ({ data }) => {
           >
             Join The List
           </a>
-        </div>
+        </form>
       </div>
     </div>
   )

@@ -5,7 +5,7 @@ import Button from "../components/Atoms/button"
 import Fade from "react-reveal/Fade"
 import Seo from "../components/seo"
 
-import image from "../images/holographic-background.webp"
+import image from "../images/tfepattern02.webp"
 
 const Contact = () => {
   return (
@@ -17,19 +17,16 @@ const Contact = () => {
 
       <div className="max-w-7xl mx-auto mt-10 flex text-white xxs:flex-col sm:flex-row">
         <Fade duration={1200}>
-          <div className="bg-dp opacity-70 p-10 rounded-xl w-3/4 m-5 w-auto">
-            <h1 className="text-3xl text-white">CONTACT HOLO</h1>
-            <h2 className=" text-black text-gradient bg-gradient-to-r from-pink to-purple text-4xl font-bold mt-2 xxs:text-lg sm:text-2xl lg:text-4xl">
-              Gatsby Theme
+          <div className="bg-offblack opacity-70 p-10 rounded-xl w-3/4 m-5 w-auto">
+            <h1 className="text-3xl text-white">TFE Productions</h1>
+            <h2 className="text-white  text-4xl font-bold mt-2 xxs:text-lg sm:text-2xl lg:text-4xl">
+              Contact
             </h2>
-            <p className="text-lg mt-2 opacity-70 w-3/4 xxs:text-xs xxs:w-full sm:text-sm sm:w-3/4">
-              A stunning and minimal personalized website starter theme.
-            </p>
 
             <div className="w-full shrink-0 grow-0 basis-auto lg:w-ful mt-10">
-              <div className="flex flex-wrap">
-                <div className="mb-12 w-full shrink-0 grow-0 basis-auto md:w-6/12 md:px-3 lg:px-3">
-                  <div className="flex items-start">
+              {/* <div className="flex flex-wrap"> */}
+              {/*<div className="mb-12 w-full shrink-0 grow-0 basis-auto md:w-6/12 md:px-3 lg:px-3">
+                   <div className="flex items-start">
                     <div className="shrink-0">
                       <div className="inline-block rounded-md bg-teal-400-100 p-4 text-teal-700">
                         <svg
@@ -56,41 +53,41 @@ const Contact = () => {
                         <a href="tel:+#">(08) 9000 000</a>
                       </p>
                     </div>
-                  </div>
-                </div>
-                <div className="mb-12 w-full shrink-0 grow-0 basis-auto md:w-6/12 md:px-3 lg:px-3">
-                  <div className="flex items-start">
-                    <div className="shrink-0">
-                      <div className="inline-block rounded-md bg-teal-400-100 p-4 text-teal-700">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke-width="1"
-                          stroke="currentColor"
-                          className="h-8 w-8"
-                        >
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            d="M17.659,3.681H8.468c-0.211,0-0.383,0.172-0.383,0.383v2.681H2.341c-0.21,0-0.383,0.172-0.383,0.383v6.126c0,0.211,0.172,0.383,0.383,0.383h1.532v2.298c0,0.566,0.554,0.368,0.653,0.27l2.569-2.567h4.437c0.21,0,0.383-0.172,0.383-0.383v-2.681h1.013l2.546,2.567c0.242,0.249,0.652,0.065,0.652-0.27v-2.298h1.533c0.211,0,0.383-0.172,0.383-0.382V4.063C18.042,3.853,17.87,3.681,17.659,3.681 M11.148,12.87H6.937c-0.102,0-0.199,0.04-0.27,0.113l-2.028,2.025v-1.756c0-0.211-0.172-0.383-0.383-0.383H2.724V7.51h5.361v2.68c0,0.21,0.172,0.382,0.383,0.382h2.68V12.87z M17.276,9.807h-1.533c-0.211,0-0.383,0.172-0.383,0.383v1.755L13.356,9.92c-0.07-0.073-0.169-0.113-0.27-0.113H8.851v-5.36h8.425V9.807z"
-                          />
-                        </svg>
-                      </div>
-                    </div>
-                    <div className="ml-2 grow">
-                      <p className="mb-2 font-bold underline decoration-pink">
-                        Email
-                      </p>
-                      <p className="text-neutral-500 mb-2">
-                        <a href="mailto:hello@holo.com?subject=Contact Holo for help.">
-                          hello@holo.com
-                        </a>
-                      </p>
+                  </div> 
+                </div>*/}
+              <div className="mb-12 w-full shrink-0 grow-0 basis-auto md:w-6/12 md:px-3 lg:px-3">
+                <div className="flex items-start">
+                  <div className="shrink-0">
+                    <div className="inline-block rounded-md bg-teal-400-100 p-4 text-teal-700">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1"
+                        stroke="currentColor"
+                        className="h-8 w-8"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M17.659,3.681H8.468c-0.211,0-0.383,0.172-0.383,0.383v2.681H2.341c-0.21,0-0.383,0.172-0.383,0.383v6.126c0,0.211,0.172,0.383,0.383,0.383h1.532v2.298c0,0.566,0.554,0.368,0.653,0.27l2.569-2.567h4.437c0.21,0,0.383-0.172,0.383-0.383v-2.681h1.013l2.546,2.567c0.242,0.249,0.652,0.065,0.652-0.27v-2.298h1.533c0.211,0,0.383-0.172,0.383-0.382V4.063C18.042,3.853,17.87,3.681,17.659,3.681 M11.148,12.87H6.937c-0.102,0-0.199,0.04-0.27,0.113l-2.028,2.025v-1.756c0-0.211-0.172-0.383-0.383-0.383H2.724V7.51h5.361v2.68c0,0.21,0.172,0.382,0.383,0.382h2.68V12.87z M17.276,9.807h-1.533c-0.211,0-0.383,0.172-0.383,0.383v1.755L13.356,9.92c-0.07-0.073-0.169-0.113-0.27-0.113H8.851v-5.36h8.425V9.807z"
+                        />
+                      </svg>
                     </div>
                   </div>
+                  <div className="ml-2 grow">
+                    <p className="mb-2 font-bold underline decoration-pink">
+                      Email
+                    </p>
+                    <p className="text-neutral-500 mb-2">
+                      <a href="mailto:contact@tfeproductions.com?subject=Contact TFE Productions for help.">
+                        contact@tfeproductions.com
+                      </a>
+                    </p>
+                  </div>
                 </div>
-                <div className="mb-12 w-full shrink-0 grow-0 basis-auto md:w-6/12 md:px-3 lg:px-3">
+              </div>
+              {/* <div className="mb-12 w-full shrink-0 grow-0 basis-auto md:w-6/12 md:px-3 lg:px-3">
                   <div className="align-start flex">
                     <div className="shrink-0">
                       <div className="inline-block rounded-md bg-teal-400-100 p-4 text-teal-700">
@@ -117,8 +114,8 @@ const Contact = () => {
                       <p className="text-neutral-500 mb-2">Worldwide</p>
                     </div>
                   </div>
-                </div>
-                <div className="mb-12 w-full shrink-0 grow-0 basis-auto md:w-6/12 md:px-3 lg:px-6">
+                </div> */}
+              {/* <div className="mb-12 w-full shrink-0 grow-0 basis-auto md:w-6/12 md:px-3 lg:px-6">
                   <div className="align-start flex">
                     <div className="shrink-0">
                       <div className="inline-block rounded-md bg-teal-400-100 p-4 text-teal-700">
@@ -145,10 +142,18 @@ const Contact = () => {
                       <p className="text-neutral-500 mb-2">24/7</p>
                     </div>
                   </div>
-                </div>
-              </div>
+                </div> */}
+              {/* </div> */}
             </div>
-            <form className="mt-5" name="contact" method="POST" netlify>
+            <form
+              className="mt-5"
+              name="contact"
+              method="POST"
+              netlify-honeypot="bot-field"
+              data-netlify="true"
+            >
+              <input type="hidden" name="form-name" value="contact" />
+              <input type="hidden" name="bot-field" />
               <div className="flex xxs:flex-col sm:flex-row">
                 <div className="sm:mr-5 xxs:mr-0">
                   <label>
@@ -193,7 +198,7 @@ const Contact = () => {
               </div>
               <label>
                 <textarea
-                  className="mt-5 w-full bg-bg bg-opacity-20 rounded-xl p-5 focus:outline-none focus:ring-2 focus:ring-purple focus:border-transparent"
+                  className="mt-5 w-full bg-bg bg-opacity-20 rounded-xl p-5 focus:outline-none focus:ring-2 focus:ring-yellow focus:border-transparent"
                   rows="5"
                   placeholder="How can we help you?"
                   type="text"

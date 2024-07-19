@@ -4,9 +4,9 @@ title: Fundamentals of YouTube
 date: 2024-03-30T18:18:16.118Z
 featuredimage: /img/holographic-background.webp
 categories:
-  - Gatsby
+  - YouTube
 description: >-
-  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+  This post will cover the fundamentals of YouTube and everything you need to know to get started.
 ---
 
 ## Lorem Ipsum

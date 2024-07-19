@@ -27,7 +27,7 @@ const WorkPage = () => {
               Ideation
             </h3>
             <h4 className="mt-10 text-white opacity-70 transition-all duration-500ms ease-in-out hover:ease-in-out group-hover:text-black group-hover:opacity-100 text-xl">
-              Something something about Ideation
+              Learn More
             </h4>
           </div>
 
@@ -36,7 +36,7 @@ const WorkPage = () => {
               Production
             </h3>
             <h4 className="mt-10 text-white opacity-70 transition-all duration-500ms ease-in-out hover:ease-in-out group-hover:text-black group-hover:opacity-100 text-xl">
-              Something something about production
+              Learn More
             </h4>
           </div>
           <div className="group transition-all duration-500ms ease-in-out hover:ease-in-out w-1/3 bg-offblack p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3 hover:bg-lightgray">
@@ -44,7 +44,7 @@ const WorkPage = () => {
               Packaging
             </h3>
             <h4 className="mt-10 text-white opacity-70 transition-all duration-500ms ease-in-out hover:ease-in-out group-hover:text-black group-hover:opacity-100 text-xl">
-              Something something about packaging
+              Learn More
             </h4>
           </div>
           <div className="group transition-all duration-500ms ease-in-out hover:ease-in-out w-1/3 bg-offblack p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3 hover:bg-lightgray">
@@ -52,7 +52,7 @@ const WorkPage = () => {
               SEO
             </h3>
             <h4 className="mt-10 text-white opacity-70 transition-all duration-500ms ease-in-out hover:ease-in-out group-hover:text-black group-hover:opacity-100 text-xl">
-              something something about SEO
+              Learn More
             </h4>
           </div>
         </div>

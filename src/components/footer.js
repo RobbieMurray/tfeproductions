@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import React from "react"
 
-import logo from "../images/3D-liquid-abstract-5.webp"
+import logo from "../images/tfeprodlogob.webp"
 
 const Footer = () => {
   return (
@@ -12,10 +12,7 @@ const Footer = () => {
             <div>
               <img className="max-h-28 max-w-xs" src={logo} alt="Holo"></img>
               <p className="text-black opacity-70 text-sm mt-5 ">
-                A stunning and minimal<br></br> personalized website starter
-                theme
-                <br></br>
-                built with Gatsby.
+                For all your social media production needs.
               </p>
               <p className="text-white text-lg font-bold mt-20">
                 <span className="text-black font-montserrat font-semibold mt-20">
@@ -54,7 +51,7 @@ const Footer = () => {
                   <Link to="/gallery" className="text-black">
                     Gallery
                   </Link>
-                </li>{" "}
+                </li>
                 <li>
                   <Link to="/blog" className="text-black">
                     Blog

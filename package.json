@@ -3,7 +3,7 @@
   "private": true,
   "description": "TFE Productions is a YouTube Focused, Production Agency.",
   "version": "1.0.0",
-  "author": "Travis Lord <hi@travislord.xyz>",
+  "author": "TFE Productions <contact@tfeproductions.com>",
   "dependencies": {
     "@fontsource/montserrat": "^5.0.18",
     "@fontsource/noto-serif": "^5.0.20",

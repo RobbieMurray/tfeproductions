@@ -16,7 +16,7 @@ const Header = () => {
               YouTube Agency
             </h2>
 
-            <p className="mt-3 text-white sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+            <p className="mt-3 text-white opacity-75 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
               At TFE Productions, we specialize in crafting high-quality YouTube
               content that captivates and engages audiences. Our services
               encompass every aspect of the production process, from ideation
@@ -30,10 +30,10 @@ const Header = () => {
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
               <div className="rounded-md">
                 <a
-                  href="/contact"
+                  href="/services"
                   className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-yellow text-black hover:text-white border border-yellow  hover:bg-transparent md:text-lg md:px-10 "
                 >
-                  Contact Us
+                  Our Services
                   <svg
                     className="w-3.5 h-3.5 ms-2 rtl:rotate-180"
                     aria-hidden="true"
@@ -49,14 +49,6 @@ const Header = () => {
                       d="M1 5h12m0 0L9 1m4 4L9 9"
                     />
                   </svg>
-                </a>
-              </div>
-              <div className="mt-3 sm:mt-0 sm:ml-3">
-                <a
-                  href="/about"
-                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 border border-yellow text-base font-medium rounded-md text-white hover:text-black bg-transparent hover:bg-yellow md:py-3 md:text-lg md:px-10"
-                >
-                  Get To Know Us
                 </a>
               </div>
             </div>

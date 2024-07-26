@@ -1,6 +1,5 @@
 import React from "react"
 import Input from "../Atoms/input"
-import Button from "../Atoms/button"
 import Fade from "react-reveal/Fade"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"

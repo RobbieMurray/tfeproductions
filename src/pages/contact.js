@@ -154,66 +154,57 @@ const Contact = () => {
             >
               <input type="hidden" name="form-name" value="contact" />
               <input type="hidden" name="bot-field" />
-              <div className="flex xxs:flex-col sm:flex-row">
+              <div className="flex xxs:flex-col sm:flex-row text-black">
                 <div className="sm:mr-5 xxs:mr-0">
-                  <label>
-                    <Input
-                      placeholder="Your Name"
-                      type="text"
-                      name="name"
-                    ></Input>
-                  </label>
+                  <Input
+                    placeholder="Your Name"
+                    type="text"
+                    name="name"
+                    className="text-black"
+                  ></Input>
                 </div>
-                <div className="sm:ml-5 xxs:ml-0 xxs:mt-2 sm:mt-0">
-                  <label>
-                    <Input
-                      placeholder="Your Email"
-                      type="email"
-                      name="email"
-                    ></Input>
-                  </label>
+                <div className="sm:ml-5 xxs:ml-0 xxs:mt-2 sm:mt-0 text-black">
+                  <Input
+                    placeholder="Your Email"
+                    type="email"
+                    name="email"
+                    className="text-black"
+                  ></Input>
                 </div>
               </div>
 
               <div className="flex mt-5 xxs:flex-col sm:flex-row">
-                <div className="sm:mr-5 xxs:mr-0">
-                  <label>
-                    <Input
-                      placeholder="Your Company"
-                      type="company"
-                      name="company"
-                    ></Input>
-                  </label>
+                <div className="sm:mr-5 xxs:mr-0 text-black">
+                  <Input
+                    placeholder="Your Company"
+                    type="company"
+                    name="company"
+                    className="text-black"
+                  ></Input>
                 </div>
-                <div className="sm:ml-5 xxs:ml-0 xxs:mt-2 sm:mt-0">
-                  <label>
-                    {" "}
-                    <Input
-                      placeholder="Your Phone"
-                      type="phone"
-                      name="phone"
-                    ></Input>
-                  </label>
+                <div className="sm:ml-5 xxs:ml-0 xxs:mt-2 sm:mt-0 text-black">
+                  <Input
+                    placeholder="Your Phone"
+                    type="phone"
+                    name="phone"
+                    className="text-black"
+                  ></Input>
                 </div>
               </div>
-              <label>
-                <textarea
-                  className="mt-5 w-full bg-bg bg-opacity-20 rounded-xl p-5 focus:outline-none focus:ring-2 focus:ring-yellow focus:border-transparent"
-                  rows="5"
-                  placeholder="How can we help you?"
-                  type="text"
-                  name="Message"
-                ></textarea>
-              </label>
+              <textarea
+                className="mt-5 w-full bg-bg bg-opacity-20 rounded-xl p-5 text-black focus:outline-none focus:ring-2 focus:ring-yellow focus:border-transparent"
+                rows="5"
+                placeholder="How can we help you?"
+                type="text"
+                name="Message"
+              ></textarea>
               <div>
-                <label>
-                  <Button
-                    type="submit"
-                    title="Send Message"
-                    colorClass="bg-gradient-to-r from-pink to-purple font-montserrat"
-                    marginClass="mt-5"
-                  ></Button>
-                </label>
+                <Button
+                  type="submit"
+                  title="Send Message"
+                  colorClass="font-encodesans"
+                  marginClass="mt-5"
+                ></Button>
               </div>
             </form>
           </div>

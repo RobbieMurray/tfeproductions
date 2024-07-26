@@ -9,7 +9,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="w-full justify-between flex items-center">
             <a
-              className="text-white flex-shrink-0 font-montserrat font-semibold"
+              className="text-white flex-shrink-0 font-inter font-semibold"
               href="/"
             >
               <span className="text-white font-semibold">TFE</span>
@@ -17,32 +17,32 @@ const Navbar = () => {
             <div className="hidden md:block">
               <div className="ml-10 flex items-center space-x-4">
                 <Link
-                  className="relative after:rounded after:bg-yellow after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 text-white opacity-70 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-montserrat"
+                  className="relative after:rounded after:bg-yellow after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 text-white opacity-70 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-inter"
                   to="/"
                 >
                   Home
                 </Link>
-                <Link
-                  className="relative after:rounded after:bg-yellow after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 text-white opacity-70 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-montserrat"
+                {/* <Link
+                  className="relative after:rounded after:bg-yellow after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 text-white opacity-70 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-inter"
                   to="/about"
                 >
                   About
-                </Link>
+                </Link> */}
 
                 <Link
-                  className="relative after:rounded after:bg-yellow after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 text-white opacity-70 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-montserrat"
-                  to="/gallery"
+                  className="relative after:rounded after:bg-yellow after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 text-white opacity-70 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-inter"
+                  to="/services"
                 >
                   Services
                 </Link>
-                <Link
-                  className="relative after:rounded after:bg-yellow after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 text-white opacity-70 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-montserrat"
+                {/* <Link
+                  className="relative after:rounded after:bg-yellow after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 text-white opacity-70 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-inter"
                   to="/gallery"
                 >
                   How We Work
-                </Link>
+                </Link> */}
                 <Link
-                  className="relative after:rounded after:bg-yellow after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 text-white opacity-70 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-montserrat"
+                  className="relative after:rounded after:bg-yellow after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 text-white opacity-70 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-inter"
                   to="/blog"
                 >
                   Blog
@@ -85,42 +85,36 @@ const Navbar = () => {
         <div className="transition duration-1000 ease-in-out md:hidden bg-offblack">
           <div className="md-px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-offblack transition duration-1000 ease-in-out">
             <a
-              className="text-white opacity-75 hover:opacity-100 px-3 py-3 rounded-md text-m font-medium font-montserrat"
+              className="text-white opacity-75 hover:opacity-100 px-3 py-3 rounded-md text-m font-medium font-inter"
               href="/"
             >
               Home
             </a>
-            <a
-              className="text-white opacity-75 hover:opacity-100 px-3 py-3 rounded-md text-m font-medium font-montserrat"
+            {/* <a
+              className="text-white opacity-75 hover:opacity-100 px-3 py-3 rounded-md text-m font-medium font-inter"
               href="/about"
             >
               About
-            </a>
+            </a> */}
 
             <a
-              className="text-white opacity-75 hover:opacity-100 px-3 py-3 rounded-md text-m font-medium font-montserrat"
-              href="/gallery"
+              className="text-white opacity-75 hover:opacity-100 px-3 py-3 rounded-md text-m font-medium font-inter"
+              href="/services"
             >
-              Gallery
+              Services
             </a>
             <a
-              className="text-white opacity-75 hover:opacity-100 px-3 py-3 rounded-md text-m font-medium font-montserrat"
+              className="text-white opacity-75 hover:opacity-100 px-3 py-3 rounded-md text-m font-medium font-inter"
               href="/blog"
             >
               Blog
             </a>
-            <a
-              className="text-white opacity-75 hover:opacity-100 px-3 py-3 rounded-md text-m font-medium font-montserrat"
-              href="/contact"
-            >
-              Contact
-            </a>
             <div className="items-center mt-20 py-3">
               <a
-                href="tel:#"
+                href="/contact"
                 className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-offblack text-white hover:text-black border border-yellow hover:bg-yellow md:text-lg md:px-10 "
               >
-                Call Us Now
+                Contact
               </a>
             </div>
           </div>

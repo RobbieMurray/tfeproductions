@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Fundamentals of YouTube
 date: 2024-03-30T18:18:16.118Z
-featuredimage: /img/holographic-background.webp
+featuredimage: /img/tfepattern02.webp
 categories:
   - YouTube
 description: >-

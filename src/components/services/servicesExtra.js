@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 const ServicesExtra = () => {
   return (
     <div className="max-w-7xl mx-auto mt-10">
-      <div className="w-auto p-8 m-4 h-72 sm:h-96 xs:h-96 xxs:h-96 mt-10 bg-offblack rounded-xl flex flex-col items-center justify-center">
+      <div className="w-auto p-8 m-4 h-72 sm:h-96 xs:h-96 xxs:h-96 mt-10 bg-offblack flex flex-col items-center justify-center">
         <h2 className=" text-4xl font-semibold text-white opacity-75 text-center">
           Interested?
         </h2>

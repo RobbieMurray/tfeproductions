@@ -12,7 +12,7 @@ p, input, textarea {
 }
 
 
- h1,h2,h3,h4,h5,h6,span {
+ h1,h2,h3,h4,h5,h6 {
   font-family: "Inter", sans-serif;
 }
 
@@ -23,6 +23,9 @@ a {
 
 .bg-custom-size {
   background-size: 1500px 843.75px; /* Adjust this size as needed */
+}
+span{
+  margin: 0;
 }
 
 @layer base {

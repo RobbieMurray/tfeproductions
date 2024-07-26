@@ -27,33 +27,33 @@ const FeatureSection = () => {
 
       <Fade bottom cascade>
         <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row content-center justify-center align-middle text-center">
-          <div className="group transition-all duration-500ms ease-in-out hover:ease-in-out w-1/3 bg-offblack p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3 hover:bg-lightgray hover:text-black">
+          <div className="group transition-all duration-500ms ease-in-out hover:ease-in-out w-1/3 bg-offblack p-8 m-5 xxs:w-full xs:w-full sm:w-1/3 hover:bg-lightgray hover:text-black">
             <Link to="/services/">
               <h3 className="text-white transition-all duration-500ms ease-in-out hover:ease-in-out group-hover:text-black text-2xl">
                 Ideation
               </h3>
-              <h4 className="mt-10 text-white opacity-70 transition-all duration-500ms ease-in-out hover:ease-in-out group-hover:text-black text-xl">
+              <h4 className="mt-10 text-white opacity-75 transition-all duration-500ms ease-in-out hover:ease-in-out group-hover:text-black text-xl">
                 Learn More
               </h4>
             </Link>
           </div>
 
-          <div className="group transition-all duration-500ms ease-in-out hover:ease-in-out w-1/3 bg-offblack p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3 hover:bg-lightgray hover:text-black">
+          <div className="group transition-all duration-500ms ease-in-out hover:ease-in-out w-1/3 bg-offblack p-8 m-5 xxs:w-full xs:w-full sm:w-1/3 hover:bg-lightgray hover:text-black">
             <Link to="/services/">
               <h3 className="text-white transition-all duration-500ms ease-in-out hover:ease-in-out group-hover:text-black text-2xl">
                 Production
               </h3>
-              <h4 className="mt-10 text-white opacity-70 transition-all duration-500ms ease-in-out hover:ease-in-out group-hover:text-black text-xl">
+              <h4 className="mt-10 text-white opacity-75 transition-all duration-500ms ease-in-out hover:ease-in-out group-hover:text-black text-xl">
                 Learn More
               </h4>
             </Link>
           </div>
-          <div className="group transition-all duration-500ms ease-in-out hover:ease-in-out w-1/3 bg-offblack p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3 hover:bg-lightgray hover:text-black">
+          <div className="group transition-all duration-500ms ease-in-out hover:ease-in-out w-1/3 bg-offblack p-8 m-5 xxs:w-full xs:w-full sm:w-1/3 hover:bg-lightgray hover:text-black">
             <Link to="/services/">
               <h3 className="text-white transition-all duration-500ms ease-in-out hover:ease-in-out group-hover:text-black text-2xl">
                 Packaging
               </h3>
-              <h4 className="mt-10 text-white opacity-70 transition-all duration-500ms ease-in-out hover:ease-in-out group-hover:text-black text-xl">
+              <h4 className="mt-10 text-white opacity-75 transition-all duration-500ms ease-in-out hover:ease-in-out group-hover:text-black text-xl">
                 Learn More
               </h4>
             </Link>

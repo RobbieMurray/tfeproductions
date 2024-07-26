@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Alex Hackel Case Study
 date: 2024-03-30T15:02:06.069Z
-featuredimage: /img/Holographic-Liquid-3.jpg
+featuredimage: /img/tfepattern02.webp
 categories:
   - blog
 tags:

@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: A simple device to improve Story Telling
 date: 2024-03-30T15:39:18.616Z
-featuredimage: /img/Holographic-Liquid-1.jpg
+featuredimage: /img/tfepattern02.webp
 categories:
   - blog
 tags:

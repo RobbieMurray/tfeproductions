@@ -28,6 +28,12 @@ const StyledDiv = styled.div`
     font-weight: 600;
     line-height: 2;
   }
+  & p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    padding-bottom: 15px;
+  }
   & a {
     color: #6b46c1;
   }
@@ -79,7 +85,7 @@ const BlogPost = props => {
               <div className="post-content-image">
                 <GatsbyImage
                   image={getImage(post.frontmatter.featuredimage)}
-                  className="lg:mb-2 overflow-hidden rounded-xl"
+                  className="lg:mb-1 overflow-hidden rounded-xl"
                   alt={post.frontmatter.title}
                 />
               </div>

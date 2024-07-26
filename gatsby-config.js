@@ -62,7 +62,7 @@ module.exports = {
               showCaptions: false,
               quality: 100,
               disableBgImageOnAlpha: false,
-              wrapperStyle: `margin: 7vw 0;`,
+              wrapperStyle: `margin: 1.5vw 0;`,
             },
           },
           {

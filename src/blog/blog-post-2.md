@@ -1,8 +1,8 @@
 ---
 templateKey: blog-post
-title: Thumbnail Simplicity
+title: Thumbnai dumbnail
 date: 2024-03-30T15:02:06.069Z
-featuredimage: /img/Holographic-Liquid-2.jpg
+featuredimage: /img/tfepattern02.webp
 categories:
   - blog
 tags:

@@ -8,12 +8,12 @@ const FeaturedBlog = () => {
         <div className="bg-transparent">
           <div className="pt-6 px-6 lg:px-0 mx-auto max-w-screen-xl lg:pt-8  ">
             <h2 className="text-white text-4xl opacity-75 font-semibold pl-4">
-              STAY UP TO DATE
+              Stay Up To Date{" "}
             </h2>
             <h3 className="text-white pl-4 text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl">
               Latest Posts
             </h3>
-            <div className="blog-hover bg-offblack border mt-10 border-offblack rounded-lg p-8 md:p-12 mb-8">
+            <div className="blog-hover bg-offblack border mt-10 border-offblack p-8 md:p-12 mb-8">
               <h2 className="text-white text-3xl font-simibold mb-2">
                 YouTube Fundamentals
               </h2>
@@ -46,7 +46,7 @@ const FeaturedBlog = () => {
               </a>
             </div>
             <div className="grid md:grid-cols-2 gap-8">
-              <div className="blog-hover bg-offblack rounded-lg p-8 md:p-12">
+              <div className="blog-hover bg-offblack p-8 md:p-12">
                 <h2 className="text-white text-3xl font-simibold mb-2">
                   Is YouTube Right For You?
                 </h2>
@@ -79,7 +79,7 @@ const FeaturedBlog = () => {
                   </svg>
                 </a>
               </div>
-              <div className="blog-hover bg-offblack rounded-lg p-8 md:p-12">
+              <div className="blog-hover bg-offblack p-8 md:p-12">
                 <h2 className="text-white text-3xl font-simibold mb-2">
                   WTF Is The "Algorithm"
                 </h2>

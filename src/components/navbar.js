@@ -84,38 +84,38 @@ const Navbar = () => {
       {openMenu && (
         <div className="transition duration-1000 ease-in-out md:hidden bg-offblack">
           <div className="md-px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-offblack transition duration-1000 ease-in-out">
-            <a
+            <Link
               className="text-white opacity-75 hover:opacity-100 px-3 py-3 rounded-md text-m font-medium font-inter"
-              href="/"
+              to="/"
             >
               Home
-            </a>
-            {/* <a
+            </Link>
+            {/* <Link
               className="text-white opacity-75 hover:opacity-100 px-3 py-3 rounded-md text-m font-medium font-inter"
-              href="/about"
+              to="/about"
             >
               About
-            </a> */}
+            </Link> */}
 
-            <a
+            <Link
               className="text-white opacity-75 hover:opacity-100 px-3 py-3 rounded-md text-m font-medium font-inter"
-              href="/services"
+              to="/services"
             >
               Services
-            </a>
-            <a
+            </Link>
+            <Link
               className="text-white opacity-75 hover:opacity-100 px-3 py-3 rounded-md text-m font-medium font-inter"
-              href="/blog"
+              to="/blog"
             >
               Blog
-            </a>
+            </Link>
             <div className="items-center mt-20 py-3">
-              <a
-                href="/contact"
+              <Link
+                to="/contact"
                 className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-offblack text-white hover:text-black border border-yellow hover:bg-yellow md:text-lg md:px-10 "
               >
                 Contact
-              </a>
+              </Link>
             </div>
           </div>
         </div>

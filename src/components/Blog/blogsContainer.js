@@ -70,7 +70,7 @@ const BlogsContainer = ({ data }) => {
           Subscribe to our newsletter, we will only send the important stuff.
         </h3>
         <form
-          className="text-black hover:text-white mt-10 flex flex-col items-center justify-center"
+          className="text-black hover:text-black mt-10 flex flex-col items-center justify-center"
           name="emaillist"
           method="POST"
           netlify-honeypot="bot-field"

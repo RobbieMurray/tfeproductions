@@ -1,5 +1,6 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
+import { Link } from "gatsby"
 
 // Assets
 import HeroImage from "../../images/tfepattern02.webp"
@@ -27,29 +28,35 @@ const FeatureSection = () => {
       <Fade bottom cascade>
         <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row content-center justify-center align-middle text-center">
           <div className="group transition-all duration-500ms ease-in-out hover:ease-in-out w-1/3 bg-offblack p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3 hover:bg-lightgray hover:text-black">
-            <h3 className="text-white transition-all duration-500ms ease-in-out hover:ease-in-out group-hover:text-black text-2xl">
-              Ideation
-            </h3>
-            <h4 className="mt-10 text-white opacity-70 transition-all duration-500ms ease-in-out hover:ease-in-out group-hover:text-black text-xl">
-              Learn More
-            </h4>
+            <Link to="/services/">
+              <h3 className="text-white transition-all duration-500ms ease-in-out hover:ease-in-out group-hover:text-black text-2xl">
+                Ideation
+              </h3>
+              <h4 className="mt-10 text-white opacity-70 transition-all duration-500ms ease-in-out hover:ease-in-out group-hover:text-black text-xl">
+                Learn More
+              </h4>
+            </Link>
           </div>
 
           <div className="group transition-all duration-500ms ease-in-out hover:ease-in-out w-1/3 bg-offblack p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3 hover:bg-lightgray hover:text-black">
-            <h3 className="text-white transition-all duration-500ms ease-in-out hover:ease-in-out group-hover:text-black text-2xl">
-              Production
-            </h3>
-            <h4 className="mt-10 text-white opacity-70 transition-all duration-500ms ease-in-out hover:ease-in-out group-hover:text-black text-xl">
-              Learn More
-            </h4>
+            <Link to="/services/">
+              <h3 className="text-white transition-all duration-500ms ease-in-out hover:ease-in-out group-hover:text-black text-2xl">
+                Production
+              </h3>
+              <h4 className="mt-10 text-white opacity-70 transition-all duration-500ms ease-in-out hover:ease-in-out group-hover:text-black text-xl">
+                Learn More
+              </h4>
+            </Link>
           </div>
           <div className="group transition-all duration-500ms ease-in-out hover:ease-in-out w-1/3 bg-offblack p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3 hover:bg-lightgray hover:text-black">
-            <h3 className="text-white transition-all duration-500ms ease-in-out hover:ease-in-out group-hover:text-black text-2xl">
-              Packaging
-            </h3>
-            <h4 className="mt-10 text-white opacity-70 transition-all duration-500ms ease-in-out hover:ease-in-out group-hover:text-black text-xl">
-              Learn More
-            </h4>
+            <Link to="/services/">
+              <h3 className="text-white transition-all duration-500ms ease-in-out hover:ease-in-out group-hover:text-black text-2xl">
+                Packaging
+              </h3>
+              <h4 className="mt-10 text-white opacity-70 transition-all duration-500ms ease-in-out hover:ease-in-out group-hover:text-black text-xl">
+                Learn More
+              </h4>
+            </Link>
           </div>
         </div>
       </Fade>
@@ -110,8 +117,8 @@ const FeatureSection = () => {
         </p>
         <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
           <div className="rounded-md">
-            <a
-              href="/contact/"
+            <Link
+              to="/contact/"
               className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-yellow text-black hover:text-white border border-yellow hover:bg-transparent md:text-lg md:px-10"
             >
               Contact Us
@@ -130,7 +137,7 @@ const FeatureSection = () => {
                   d="M1 5h12m0 0L9 1m4 4L9 9"
                 />
               </svg>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -161,8 +168,8 @@ const FeatureSection = () => {
 
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-end">
               <div className="rounded-md">
-                <a
-                  href="http://localhost:8000/blog/blog-post/"
+                <Link
+                  to="/blog/alex-hackel/"
                   className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-encodesans rounded-md text-center bg-yellow text-black hover:text-white border border-yellow hover:bg-transparent md:text-lg md:px-10"
                 >
                   Learn More
@@ -181,7 +188,7 @@ const FeatureSection = () => {
                       d="M1 5h12m0 0L9 1m4 4L9 9"
                     />
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

@@ -1,5 +1,6 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
+import { Link } from "gatsby"
 
 import hero from "../../images/tfeprodlogow.webp"
 
@@ -29,8 +30,8 @@ const Header = () => {
 
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
               <div className="rounded-md">
-                <a
-                  href="/services"
+                <Link
+                  to="/services"
                   className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-yellow text-black hover:text-white border border-yellow  hover:bg-transparent md:text-lg md:px-10 "
                 >
                   Our Services
@@ -49,7 +50,7 @@ const Header = () => {
                       d="M1 5h12m0 0L9 1m4 4L9 9"
                     />
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

@@ -2,6 +2,9 @@ import { Link } from "gatsby"
 import React from "react"
 
 import logo from "../images/tfeprodlogob.webp"
+import { FaYoutube } from "react-icons/fa6"
+import { FaInstagram } from "react-icons/fa6"
+import { FaTiktok } from "react-icons/fa6"
 
 const Footer = () => {
   return (
@@ -19,19 +22,37 @@ const Footer = () => {
                   &copy; {new Date().getFullYear()}. All Rights Reserved.
                 </span>
               </p>
-              <div className="text-black font-bold block-inline">
-                <p>
-                  <a
-                    href="https://instagram.com/the_flying_englishman"
-                    target="_blank"
-                  >
-                    <img
-                      className="w-5 h-5 mt-1"
-                      src="/img/Github-Logo.png"
-                      alt="instagram"
-                    ></img>
-                  </a>
-                </p>
+              <div className="flex justify-between w-1/4">
+                <div className="text-black font-bold block-inline">
+                  <p>
+                    <a
+                      href="https://instagram.com/the_flying_englishman"
+                      target="_blank"
+                    >
+                      <FaInstagram color="black" />
+                    </a>
+                  </p>
+                </div>
+                <div className="text-black font-bold block-inline">
+                  <p>
+                    <a
+                      href="https://www.youtube.com/@the_flying_englishman"
+                      target="_blank"
+                    >
+                      <FaYoutube color="black" />
+                    </a>
+                  </p>
+                </div>
+                <div className="text-black font-bold block-inline">
+                  <p>
+                    <a
+                      href="https://www.tiktok.com/@the_flying_englishman"
+                      target="_blank"
+                    >
+                      <FaTiktok color="black" />
+                    </a>
+                  </p>
+                </div>
               </div>
             </div>
 

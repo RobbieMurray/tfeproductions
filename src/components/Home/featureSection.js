@@ -1,17 +1,32 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 import { Link } from "gatsby"
+import { GatsbyImage, StaticImage } from "gatsby-plugin-image"
 
 // Assets
 import HeroImage from "../../images/tfepattern02.webp"
 import Image1 from "../../images/3D-liquid-abstract-1.webp"
 import Image2 from "../../images/3D-liquid-abstract.webp"
 import Image3 from "../../images/3D-liquid-abstract-3.webp"
+import Joel from "../../images/Joel_3-2.webp"
 
 const FeatureSection = () => {
   return (
     <div className="max-w-7xl mx-auto">
       <Fade bottom cascade>
+        <div className="overflow-hidden m-4">
+          <StaticImage
+            alt="Joel Kristinsan"
+            src="../../images/Joel_3-2.webp"
+            placeholder="none"
+            layout="fullWidth"
+            formats={["auto", "webp", "avif"]}
+            quality={100}
+          />
+        </div>
+      </Fade>
+
+      {/* <Fade bottom cascade>
         <div className="grid grid-cols-3 mt-10 gap-4 xxs:grid-cols-1 md:grid-cols-3 px-5">
           <div className="rounded-xl overflow-hidden relative hover:opacity-100 hidden md:block">
             <img alt="Image" src={Image1}></img>
@@ -23,9 +38,9 @@ const FeatureSection = () => {
             <img alt="Image" src={Image3}></img>
           </div>
         </div>
-      </Fade>
+      </Fade> */}
 
-      <Fade bottom cascade>
+      {/* <Fade bottom cascade>
         <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row content-center justify-center align-middle text-center">
           <div className="group transition-all duration-500ms ease-in-out hover:ease-in-out w-1/3 bg-offblack p-8 m-5 xxs:w-full xs:w-full sm:w-1/3 hover:bg-lightgray hover:text-black">
             <Link to="/services/">
@@ -59,7 +74,7 @@ const FeatureSection = () => {
             </Link>
           </div>
         </div>
-      </Fade>
+      </Fade> */}
       {/* <Fade bottom cascade>
         <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row content-center justify-center align-middle text-center">
           <div className="group transition-all duration-500ms ease-in-out hover:ease-in-out w-1/3 bg-offblack p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3 hover:bg-lightgray hover:text-black">

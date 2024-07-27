@@ -6,7 +6,7 @@ featuredimage: /img/tfepattern02.webp
 categories:
   - YouTube
 description: >-
-This post will cover what we changed to help Alex Hackel go from a few hundred views to tens of thousands of views per video.
+  This post will cover what we changed to help Alex Hackel go from a few hundred views to tens of thousands of views per video.
 ---
 
 ## Lorem Ipsum

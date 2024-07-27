@@ -1,4 +1,4 @@
-
+/* @import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100..900&family=Inter:wght@100..900&display=swap'); */
 
 @tailwind base;
 @tailwind components;
@@ -6,7 +6,7 @@
 
 
 p, input, textarea {
-  font-family: "Encode Sans", sans-serif;
+  font-family: "Encode Sans", sans-serif; 
   font-size: 1rem !important;
   line-height: 1.5rem !important;
 }
@@ -17,7 +17,7 @@ p, input, textarea {
 }
 
 a {
-  font-family: "Encode Sams", sans-serif;
+  font-family: "Encode Sans", sans-serif;
   font-size: 1rem !important;
 }
 

@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
-title: Thumbnai dumbnail
-date: 2024-03-30T15:02:06.069Z
+title: Is YouTube Right For You?
+date: 2024-03-30T15:39:18.616Z
 featuredimage: /img/tfepattern02.webp
 categories:
   - blog

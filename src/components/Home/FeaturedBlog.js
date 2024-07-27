@@ -18,13 +18,12 @@ const FeaturedBlog = () => {
                 YouTube Fundamentals
               </h2>
               <p className="text-lg  text-white opacity-75 mb-6">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book.
+                YouTube is hard. Which is why we are breaking down how we
+                fundamentally approach YouTube to achieve success, no matter the
+                topic you wish to cover.
               </p>
               <a
-                href="/blog/blog-post"
+                href="/blog/fundamentals-of-youtube"
                 className="transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-white opacity-75 hover:text-black rounded-lg border border-yellow  hover:bg-yellow"
               >
                 Continue Reading
@@ -51,14 +50,13 @@ const FeaturedBlog = () => {
                   Is YouTube Right For You?
                 </h2>
                 <p className="text-lg font-normal text-white opacity-75 mb-4">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book.
+                  YouTube requires more upfront investment than other social
+                  media platforms. However we believe there is greater long term
+                  ROI potential. Here's what we think you need to consider if
+                  you want to start a YouTube empire for yourself.
                 </p>
                 <a
-                  href="/blog/blog-post-1"
+                  href="/blog/youtube-for-you"
                   className="transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-white opacity-75 hover:text-black rounded-lg border border-yellow  hover:bg-yellow"
                 >
                   Continue Reading
@@ -84,14 +82,11 @@ const FeaturedBlog = () => {
                   WTF Is The "Algorithm"
                 </h2>
                 <p className="text-lg font-normal text-white opacity-75 mb-4">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book.
+                  The algorithm is a mistery to many, but not to us. Here is
+                  everything you need to know.
                 </p>
                 <a
-                  href="/blog/blog-post-2"
+                  href="/blog/wtf-algorithm"
                   className="transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-white opacity-75 hover:text-black rounded-lg border border-yellow  hover:bg-yellow"
                 >
                   Continue Reading

@@ -12,7 +12,7 @@ const ServicesPage = () => {
           <div className="mx-auto max-w-7xl px-4 sm:mt-10 sm:px-6 md:mt-10 lg:mt-10 lg:px-0 xl:mt-10 flex flex-col lg:flex-row gap-3 lg:flex-justify">
             <div className="lg:w-1/2 my-4">
               <img
-                className="rounded-xl h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
+                className=" h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
                 src={HeroImage}
                 alt="HeroImage"
               ></img>
@@ -37,7 +37,14 @@ const ServicesPage = () => {
 
       <Fade bottom cascade>
         <div className="max-w-7xl mx-auto lg:px-8 md:px-3">
-          <div className="mx-auto max-w-7xl px-4 sm:mt-10 sm:px-6 md:mt-10 lg:mt-10 lg:px-0 xl:mt-10 flex flex-col lg:flex-row gap-3 lg:flex-justify">
+          <div className="mx-auto max-w-7xl px-4 sm:mt-10 sm:px-6 md:mt-10 lg:mt-10 lg:px-0 xl:mt-10 flex flex-col lg:flex-row-reverse gap-3 lg:flex-justify">
+            <div className="lg:w-1/2 my-4">
+              <img
+                className=" h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
+                src={HeroImage}
+                alt="HeroImage"
+              ></img>
+            </div>
             <div className="lg:w-1/2 sm:text-center lg:text-left flex flex-col justify-center">
               {/* <h2 className="text-black text-4xl font-semibold text-white opacity-75">
                 Case Study
@@ -51,13 +58,6 @@ const ServicesPage = () => {
                 layout, and user-friendly navigation.
               </p>
             </div>
-            <div className="lg:w-1/2 my-4">
-              <img
-                className="rounded-xl h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-                src={HeroImage}
-                alt="HeroImage"
-              ></img>
-            </div>
           </div>
         </div>
       </Fade>
@@ -67,7 +67,7 @@ const ServicesPage = () => {
           <div className="mx-auto max-w-7xl px-4 sm:mt-10 sm:px-6 md:mt-10 lg:mt-10 lg:px-0 xl:mt-10 flex flex-col lg:flex-row gap-3 lg:flex-justify">
             <div className="lg:w-1/2 my-4">
               <img
-                className="rounded-xl h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
+                className=" h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
                 src={HeroImage}
                 alt="HeroImage"
               ></img>
@@ -93,7 +93,14 @@ const ServicesPage = () => {
 
       <Fade bottom cascade>
         <div className="max-w-7xl mx-auto lg:px-8 md:px-3">
-          <div className="mx-auto max-w-7xl px-4 sm:mt-10 sm:px-6 md:mt-10 lg:mt-10 lg:px-0 xl:mt-10 flex flex-col lg:flex-row gap-3 lg:flex-justify">
+          <div className="mx-auto max-w-7xl px-4 sm:mt-10 sm:px-6 md:mt-10 lg:mt-10 lg:px-0 xl:mt-10 flex flex-col lg:flex-row-reverse gap-3 lg:flex-justify">
+            <div className="lg:w-1/2 my-4">
+              <img
+                className=" h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
+                src={HeroImage}
+                alt="HeroImage"
+              ></img>
+            </div>
             <div className="lg:w-1/2 sm:text-center lg:text-left flex flex-col justify-center">
               {/* <h2 className="text-black text-4xl font-semibold text-white opacity-75">
                 Case Study
@@ -107,13 +114,6 @@ const ServicesPage = () => {
                 eduction or ad focused.
               </p>
             </div>
-            <div className="lg:w-1/2 my-4">
-              <img
-                className="rounded-xl h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-                src={HeroImage}
-                alt="HeroImage"
-              ></img>
-            </div>
           </div>
         </div>
       </Fade>
@@ -123,7 +123,7 @@ const ServicesPage = () => {
           <div className="mx-auto max-w-7xl px-4 sm:mt-10 sm:px-6 md:mt-10 lg:mt-10 lg:px-0 xl:mt-10 flex flex-col lg:flex-row gap-3 lg:flex-justify">
             <div className="lg:w-1/2 my-4">
               <img
-                className="rounded-xl h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
+                className=" h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
                 src={HeroImage}
                 alt="HeroImage"
               ></img>

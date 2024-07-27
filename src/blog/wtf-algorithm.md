@@ -1,16 +1,13 @@
 ---
 templateKey: blog-post
-title: A simple device to improve Story Telling
-date: 2024-03-30T15:39:18.616Z
+title: WTF Is The "Algorithm"
+date: 2024-03-30T15:02:06.069Z
 featuredimage: /img/tfepattern02.webp
 categories:
   - blog
 tags:
   - blog
-description: Lorem Ipsum is simply dummy text of the printing and typesetting
-  industry. Lorem Ipsum has been the industry's standard dummy text ever since
-  the 1500s, when an unknown printer took a galley of type and scrambled it to
-  make a type specimen book.
+description: The algorithm is a mistery to many, but not to us. Here is everything you need to know.
 ---
 
 ## Lorem Ipsum

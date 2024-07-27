@@ -17,7 +17,7 @@ const Contact = () => {
 
       <div className="max-w-7xl mx-auto mt-10 flex text-white xxs:flex-col sm:flex-row">
         <Fade duration={1200}>
-          <div className="bg-offblack opacity-70 p-10 rounded-xl md:w-3/4 m-5 xxs:w-auto">
+          <div className="bg-offblack opacity-70 p-10  md:w-3/4 m-5 xxs:w-auto">
             <h1 className="text-3xl text-white opacity-75">TFE Productions</h1>
             <h2 className="text-white  text-4xl font-bold mt-2 xxs:text-lg sm:text-2xl lg:text-4xl">
               Contact
@@ -204,7 +204,7 @@ const Contact = () => {
           </div>
         </Fade>
         <Fade bottom cascade>
-          <div className="w-1/4 overflow-hidden rounded-xl m-5 xxs:hidden sm:block">
+          <div className="w-1/4 overflow-hidden  m-5 xxs:hidden sm:block">
             <img
               className="object-cover h-full w-full"
               src={image}

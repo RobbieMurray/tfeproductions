@@ -1,10 +1,10 @@
 import { Link } from "gatsby"
 import React from "react"
 
-import logo from "../images/tfeprodlogob.webp"
 import { FaYoutube } from "react-icons/fa6"
 import { FaInstagram } from "react-icons/fa6"
 import { FaTiktok } from "react-icons/fa6"
+import { StaticImage } from "gatsby-plugin-image"
 
 const Footer = () => {
   return (
@@ -13,7 +13,15 @@ const Footer = () => {
         <div className="footer bg-lightgray p-10 mt-10">
           <div className="grid grid-cols-2 xxs:grid-cols-1 lg:grid-cols-2">
             <div>
-              <img className="max-h-28 max-w-xs" src={logo} alt="Holo"></img>
+              <StaticImage
+                alt="TFE Productions Logo"
+                src="../images/tfeprodlogob.webp"
+                placeholder="blurred"
+                layout="constrained"
+                formats={["auto", "webp", "avif"]}
+                quality={100}
+                width={112}
+              />
               <p className="text-black opacity-70 text-sm mt-5 ">
                 For all your social media production needs.
               </p>
@@ -28,6 +36,8 @@ const Footer = () => {
                     <a
                       href="https://instagram.com/the_flying_englishman"
                       target="_blank"
+                      rel="noreferrer"
+                      alt="TFE Instagram"
                     >
                       <FaInstagram color="black" />
                     </a>
@@ -38,6 +48,8 @@ const Footer = () => {
                     <a
                       href="https://www.youtube.com/@the_flying_englishman"
                       target="_blank"
+                      rel="noreferrer"
+                      alt="TFE YouTube"
                     >
                       <FaYoutube color="black" />
                     </a>
@@ -48,6 +60,8 @@ const Footer = () => {
                     <a
                       href="https://www.tiktok.com/@the_flying_englishman"
                       target="_blank"
+                      rel="noreferrer"
+                      alt="TFE TikTok"
                     >
                       <FaTiktok color="black" />
                     </a>

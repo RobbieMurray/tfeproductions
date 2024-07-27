@@ -8,12 +8,12 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-3 py-5 rounded-md">
         <div className="flex items-center justify-between h-16">
           <div className="w-full justify-between flex items-center">
-            <a
+            <Link
               className="text-white flex-shrink-0 font-inter font-semibold"
-              href="/"
+              to="/"
             >
               <span className="text-white font-semibold">TFE</span>
-            </a>
+            </Link>
             <div className="hidden md:block">
               <div className="ml-10 flex items-center space-x-4">
                 <Link

@@ -1,5 +1,6 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
+import { Link } from "gatsby"
 
 const FeaturedBlog = () => {
   return (
@@ -22,8 +23,8 @@ const FeaturedBlog = () => {
                 fundamentally approach YouTube to achieve success, no matter the
                 topic you wish to cover.
               </p>
-              <a
-                href="/blog/fundamentals-of-youtube"
+              <Link
+                to="/blog/fundamentals-of-youtube"
                 className="transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-white opacity-75 hover:text-black rounded-lg border border-yellow  hover:bg-yellow"
               >
                 Continue Reading
@@ -42,7 +43,7 @@ const FeaturedBlog = () => {
                     d="M1 5h12m0 0L9 1m4 4L9 9"
                   />
                 </svg>
-              </a>
+              </Link>
             </div>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="blog-hover bg-offblack p-8 md:p-12">
@@ -55,8 +56,8 @@ const FeaturedBlog = () => {
                   ROI potential. Here's what we think you need to consider if
                   you want to start a YouTube empire for yourself.
                 </p>
-                <a
-                  href="/blog/youtube-for-you"
+                <Link
+                  to="/blog/youtube-for-you"
                   className="transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-white opacity-75 hover:text-black rounded-lg border border-yellow  hover:bg-yellow"
                 >
                   Continue Reading
@@ -75,7 +76,7 @@ const FeaturedBlog = () => {
                       d="M1 5h12m0 0L9 1m4 4L9 9"
                     />
                   </svg>
-                </a>
+                </Link>
               </div>
               <div className="blog-hover bg-offblack p-8 md:p-12">
                 <h2 className="text-white text-3xl font-simibold mb-2">
@@ -85,8 +86,8 @@ const FeaturedBlog = () => {
                   The algorithm is a mistery to many, but not to us. Here is
                   everything you need to know.
                 </p>
-                <a
-                  href="/blog/wtf-algorithm"
+                <Link
+                  to="/blog/wtf-algorithm"
                   className="transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-white opacity-75 hover:text-black rounded-lg border border-yellow  hover:bg-yellow"
                 >
                   Continue Reading
@@ -105,7 +106,7 @@ const FeaturedBlog = () => {
                       d="M1 5h12m0 0L9 1m4 4L9 9"
                     />
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

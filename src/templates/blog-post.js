@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import LeftIcon from "../images/left-icon.svg"
 import RightIcon from "../images/right-icon.svg"
@@ -102,14 +102,14 @@ const BlogPost = props => {
             />
             <div className="flex items-center justify-between pt-8">
               <div>
-                <a
+                <Link
                   style={{
                     display: previousLinkStatus ? "flex" : "none",
                     alignItems: "center",
                     color: "#white",
                   }}
                   className="text-white	"
-                  href={previousSlug}
+                  to={previousSlug}
                 >
                   <img src={LeftIcon} alt="LeftIcon" width={30} height={30} />
                   <span>
@@ -120,17 +120,17 @@ const BlogPost = props => {
                         : pageContext.previous.frontmatter.title
                       : ""}
                   </span>
-                </a>
+                </Link>
               </div>
               <div>
-                <a
+                <Link
                   style={{
                     display: nextLinkStatus ? "flex" : "none",
                     alignItems: "center",
                     color: "#ffffff",
                   }}
                   className="text-white	"
-                  href={nextSlug}
+                  to={nextSlug}
                 >
                   <span>
                     {pageContext.next
@@ -141,7 +141,7 @@ const BlogPost = props => {
                       : ""}
                   </span>
                   <img src={RightIcon} alt="RightIcon" width={30} height={30} />
-                </a>
+                </Link>
               </div>
             </div>
           </article>

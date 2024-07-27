@@ -1,8 +1,6 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
-import { Link } from "gatsby"
 import HeroImage from "../../images/tfepattern02.webp"
-import Image3 from "../../images/3D-liquid-abstract-3.webp"
 
 const ServicesPage = () => {
   return (

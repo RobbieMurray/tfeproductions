@@ -2,7 +2,7 @@ import React from "react"
 import Fade from "react-reveal/Fade"
 
 import HeroImage from "../images/3D-liquid-abstract-2.webp"
-import BackGroud from "../images/holographic-background.webp"
+// import BackGroud from "../images/holographic-background.webp"
 
 const Gallery = () => {
   return (
@@ -29,7 +29,7 @@ const Gallery = () => {
         </div>
       </Fade>
 
-      <div className="max-w-7xl mx-auto px-8 mt-5">
+      {/* <div className="max-w-7xl mx-auto px-8 mt-5">
         <Fade bottom cascade>
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
             <a
@@ -139,8 +139,8 @@ const Gallery = () => {
               </span>
             </a>
           </div>
-        </Fade>
-      </div>
+        </Fade> 
+      </div>*/}
     </div>
   )
 }

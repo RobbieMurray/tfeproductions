@@ -79,13 +79,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Holo - Gatsby Starter Theme`,
-        short_name: `Holo`,
+        name: `TFE Productions`,
+        short_name: `TFE`,
         start_url: `/`,
         background_color: `#ebebfa`,
         theme_color: `#ebebfa`,
         display: `standalone`,
-        icon: `src/images/3D-liquid-abstract-5.webp`, // This path is relative to the root of the site.
+        icon: `src/images/tfelogo.png`, // This path is relative to the root of the site.
       },
     },
     {

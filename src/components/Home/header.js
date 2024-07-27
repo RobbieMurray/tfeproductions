@@ -2,7 +2,7 @@ import React from "react"
 import Fade from "react-reveal/Fade"
 import { Link } from "gatsby"
 
-import hero from "../../images/tfeprodlogow.webp"
+import { StaticImage } from "gatsby-plugin-image"
 
 const Header = () => {
   return (
@@ -56,11 +56,14 @@ const Header = () => {
           </div>
 
           <div className="lg:inset-y-0 lg:right-0 lg:w-1/2 my-4 flex lg:justify-end justify-center">
-            <img
-              className="w-auto h-full object-cover flex justify-center"
-              src={hero}
-              alt=""
-            ></img>
+            <StaticImage
+              alt="TFE Productions Logo"
+              src="../../images/tfeprodlogow.webp"
+              placeholder="blurred"
+              layout="constrained"
+              formats={["auto", "webp", "avif"]}
+              quality={100}
+            />
           </div>
         </div>
       </div>

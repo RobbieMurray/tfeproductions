@@ -1,14 +1,7 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 import { Link } from "gatsby"
-import { GatsbyImage, StaticImage } from "gatsby-plugin-image"
-
-// Assets
-import HeroImage from "../../images/tfepattern02.webp"
-import Image1 from "../../images/3D-liquid-abstract-1.webp"
-import Image2 from "../../images/3D-liquid-abstract.webp"
-import Image3 from "../../images/3D-liquid-abstract-3.webp"
-import Joel from "../../images/Joel_3-2.webp"
+import { StaticImage } from "gatsby-plugin-image"
 
 const FeatureSection = () => {
   return (

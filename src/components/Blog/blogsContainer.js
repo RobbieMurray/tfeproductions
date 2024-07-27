@@ -79,12 +79,12 @@ const BlogsContainer = ({ data }) => {
           <input type="hidden" name="form-name" value="contact" />
           <input type="hidden" name="bot-field" />
           <Input placeholder="Enter your email"></Input>
-          <a
-            href="#"
+          <Link
+            to="/"
             className="mt-4 transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-white hover:text-black rounded-lg border border-yellow  hover:bg-yellow"
           >
             Join The List
-          </a>
+          </Link>
         </form>
       </div>
     </div>

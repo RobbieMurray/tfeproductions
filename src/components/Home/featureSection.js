@@ -123,7 +123,7 @@ const FeatureSection = () => {
           brand’s reach, short and long form content, and even ads for everyone
           in the snowsports community to enjoy.
         </p>
-        <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+        <div className="mt-5 xs:mt-8 xs:flex xs:justify-center lg:justify-start">
           <div className="rounded-md">
             <Link
               to="/contact/"
@@ -178,7 +178,7 @@ const FeatureSection = () => {
               views per video.
             </p>
 
-            <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-end">
+            <div className="mt-5 xs:mt-8 xs:flex xs:justify-center lg:justify-end">
               <div className="rounded-md">
                 <Link
                   to="/blog/alex-hackel/"
@@ -269,7 +269,7 @@ const FeatureSection = () => {
           more recently with desktop publishing software like Aldus PageMaker
           including versions of Lorem Ipsum.
         </p>
-        <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+        <div className="mt-5 xs:mt-8 xs:flex xs:justify-center lg:justify-start">
           <div className="rounded-md">
             <a
               href="/contact/"
@@ -301,7 +301,7 @@ const FeatureSection = () => {
           more recently with desktop publishing software like Aldus PageMaker
           including versions of Lorem Ipsum.
         </p>
-        <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+        <div className="mt-5 xs:mt-8 xs:flex xs:justify-center lg:justify-start">
           <div className="rounded-md">
             <a
               href="/contact/"

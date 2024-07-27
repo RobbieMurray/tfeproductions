@@ -28,7 +28,7 @@ const Header = () => {
               precision.
             </p>
 
-            <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+            <div className="mt-5 xs:mt-8 xs:flex xs:justify-center lg:justify-start">
               <div className="rounded-md">
                 <Link
                   to="/services"

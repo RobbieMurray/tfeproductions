@@ -4,10 +4,9 @@ title: Alex Hackel Case Study
 date: 2024-03-30T15:02:06.069Z
 featuredimage: /img/tfepattern02.webp
 categories:
-  - blog
-tags:
-  - blog
-description: This post will cover what we changed to help Alex Hackel go from a few hundred views to tens of thousands of views per video.
+  - YouTube
+description: >-
+This post will cover what we changed to help Alex Hackel go from a few hundred views to tens of thousands of views per video.
 ---
 
 ## Lorem Ipsum

@@ -1331,6 +1331,16 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@fontsource/encode-sans@^5.0.13":
+  version "5.0.13"
+  resolved "https://registry.yarnpkg.com/@fontsource/encode-sans/-/encode-sans-5.0.13.tgz#f5db70482aa0649d980fffa758f9ff1aa14863e0"
+  integrity sha512-Qa21W4otoLfwhUXjOpEbEB+OPn4CVggFx95jb1XghqRZgYvr+bXVBUW9roN/TxEDnPrgHnBb+3FY7CD72/kx5A==
+
+"@fontsource/inter@^5.0.19":
+  version "5.0.19"
+  resolved "https://registry.yarnpkg.com/@fontsource/inter/-/inter-5.0.19.tgz#680a71be6311e60df77c78fcdd941753886a59e4"
+  integrity sha512-tVU77yjKnsoUotrXGYbbYxmL9nbm/MSo3deZietmf8V2FEDlbi9fvkJHMrYbo7ZsOqR1AYBBqRYmemz4pSE5Mg==
+
 "@fontsource/montserrat@^5.0.18":
   version "5.0.18"
   resolved "https://registry.yarnpkg.com/@fontsource/montserrat/-/montserrat-5.0.18.tgz#eecb91b0f0062787a0eee5622988ed21f2899a90"

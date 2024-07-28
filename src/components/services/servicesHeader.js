@@ -6,14 +6,15 @@ const ServicesHeader = () => {
   return (
     <Fade>
       <div className="max-w-7xl mx-auto mt-10">
-        <div className="overflow-hidden m-4">
+        <div className="overflow-hidden max-h-5xlm-4">
           <StaticImage
-            alt="Keenan Demchuck"
-            src="../../images/Keenan_3-2.webp"
+            alt="X Games"
+            src="../../images/xgames.webp"
             placeholder="none"
             layout="fullWidth"
             formats={["auto", "webp", "avif"]}
             quality={100}
+            aspectRatio={3}
           />
         </div>
         <div className="mt-10 px-8">

@@ -71,7 +71,7 @@ const Footer = () => {
             </div>
 
             <div className="place-self-end self-center xxs:hidden lg:block">
-              <ul className="text-xl font-montserrat font-medium">
+              <ul className="text-xl font-montserrat font-medium list-none p-0">
                 <li>
                   <Link to="/" className="text-black">
                     Home

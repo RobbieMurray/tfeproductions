@@ -85,7 +85,7 @@ const BlogPost = props => {
               <div className="post-content-image">
                 <GatsbyImage
                   image={getImage(post.frontmatter.featuredimage)}
-                  className="lg:mb-1 overflow-hidden rounded-xl"
+                  className="lg:mb-1 overflow-hidden "
                   alt={post.frontmatter.title}
                 />
               </div>

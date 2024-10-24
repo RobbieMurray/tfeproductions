@@ -51,7 +51,7 @@ const ServicesPage = () => {
                 Channel Construction
               </h3>
 
-              <p className="mt-3 text-white opacity-75 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-auto lg:mr-0">
+              <p className="mt-3 text-white opacity-75 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-auto lg:ml-0">
                 Build and optimize the YouTube channel with a focus on branding,
                 layout, and user-friendly navigation.
               </p>
@@ -107,7 +107,7 @@ const ServicesPage = () => {
                 Production
               </h3>
 
-              <p className="mt-3 text-white opacity-75 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-auto lg:mr-0">
+              <p className="mt-3 text-white opacity-75 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-auto lg:ml-0">
                 Encompassing a range of content types whether it be story,
                 eduction or ad focused.
               </p>

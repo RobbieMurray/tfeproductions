@@ -20,6 +20,11 @@ a {
   font-family: "Encode Sans", sans-serif;
   font-size: 1rem !important;
 }
+ul,ol {
+  list-style-type: disc;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
 
 .bg-custom-size {
   background-size: 1500px 843.75px; /* Adjust this size as needed */

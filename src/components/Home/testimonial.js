@@ -34,6 +34,19 @@ const Testimonial = () => {
           <div className="relative w-full h-full flex flex-row justify-between items-center xxs:flex-col xs:flex-col sm:flex-row">
             <div className="w-3/4 xxs:w-full xs:w-full backdrop-blur-sm bg-midgray/30 p-10 rounded-lg lg:p-10">
               <div className="text-white font-semibold text-xl xxs:text-s xxs:font-normal sm:text-xl opacity-75">
+                "Robbie is fantastic to work with. Not only does he have a great
+                understanding of YouTube with knowledge in packaging, ideation,
+                and video editing, he also is driven, passionate, and easy to
+                work with. He has been instrumental in my growth on YouTube, and
+                I believe that he will make a huge impact for any creator or
+                brand looking to grow their YouTube presence."
+              </div>
+              <div className="mt-10">
+                <h3 className="text-white text-2xl font-inter">Alex Hackel</h3>
+                <p className="text-white text-sm  opacity-50">
+                  Professional Skier
+                </p>
+                {/* <div className="text-white font-semibold text-xl xxs:text-s xxs:font-normal sm:text-xl opacity-75">
                 "[They] have produced a ton of content for both Snowboard
                 Addiction and Ski Addiction as well as implemented important
                 changes to our YouTube and TikTok channels that we continue to
@@ -43,7 +56,7 @@ const Testimonial = () => {
                 <h3 className="text-white text-2xl font-inter">Nev Lapwood</h3>
                 <p className="text-white text-sm  opacity-50">
                   CEO Snowboard Addiction & Ski Addiction
-                </p>
+                </p> */}
               </div>
             </div>
           </div>

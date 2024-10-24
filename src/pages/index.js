@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import Header from "../components/Home/header"
 import FeatureSection from "../components/Home/featureSection"
 import Testimonial from "../components/Home/testimonial"
-import FeaturedBlog from "../components/Home/FeaturedBlog"
+// import FeaturedBlog from "../components/Home/FeaturedBlog"
 import Seo from "../components/seo"
 
 const IndexPage = () => (
@@ -17,7 +17,7 @@ const IndexPage = () => (
       ></Seo>
       <Header></Header>
       <FeatureSection></FeatureSection>
-      <FeaturedBlog></FeaturedBlog>
+      {/* <FeaturedBlog></FeaturedBlog> */}
       <Testimonial></Testimonial>
     </Layout>
   </div>

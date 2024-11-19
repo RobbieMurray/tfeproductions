@@ -1,6 +1,12 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 import HeroImage from "../../images/tfepattern02.webp"
+import YTStrategyImage from "../../images/ytstrategy.webp"
+import ConstructionImage from "../../images/construction.webp"
+import IdeationImage from "../../images/ideation.webp"
+import ProductionImage from "../../images/production.webp"
+import PostImage from "../../images/postproduction.webp"
+import PackagingImage from "../../images/packaging.webp"
 
 const ServicesPage = () => {
   return (
@@ -11,8 +17,8 @@ const ServicesPage = () => {
             <div className="lg:w-1/2 my-4">
               <img
                 className=" h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-                src={HeroImage}
-                alt="HeroImage"
+                src={YTStrategyImage}
+                alt="YouTube Strategy"
               ></img>
             </div>
 
@@ -25,8 +31,10 @@ const ServicesPage = () => {
               </h3>
 
               <p className="mt-3 text-white opacity-75 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-auto lg:mr-0">
-                Develop a comprehensive strategy for maximizing viewer
-                engagement and growing the subscriber base on YouTube.
+                Success on YouTube starts with a clear plan. We craft bespoke
+                strategies tailored to your goals, audience, and niche, ensuring
+                every upload works toward building a thriving channel and a
+                thriving business.
               </p>
             </div>
           </div>
@@ -39,8 +47,8 @@ const ServicesPage = () => {
             <div className="lg:w-1/2 my-4">
               <img
                 className=" h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-                src={HeroImage}
-                alt="HeroImage"
+                src={ConstructionImage}
+                alt="Construction Image"
               ></img>
             </div>
             <div className="lg:w-1/2 sm:text-center lg:text-left flex flex-col justify-center">
@@ -52,8 +60,10 @@ const ServicesPage = () => {
               </h3>
 
               <p className="mt-3 text-white opacity-75 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-auto lg:ml-0">
-                Build and optimize the YouTube channel with a focus on branding,
-                layout, and user-friendly navigation.
+                From branding to layout, we design and set up your channel to
+                attract viewers and encourage subscriptions. Our approach
+                ensures your channel is visually compelling and optimized for
+                discoverability.
               </p>
             </div>
           </div>
@@ -66,8 +76,8 @@ const ServicesPage = () => {
             <div className="lg:w-1/2 my-4">
               <img
                 className=" h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-                src={HeroImage}
-                alt="HeroImage"
+                src={IdeationImage}
+                alt="Ideation Image"
               ></img>
             </div>
 
@@ -82,7 +92,9 @@ const ServicesPage = () => {
               <p className="mt-3 text-white opacity-75 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-auto lg:mr-0">
                 The most difficult area to master, proper ideation saves
                 significant time in the long term, by making sure effort is
-                focused on the few videos that best return.
+                focused on the few videos that best return. Our creative team
+                generates fresh, engaging concepts tailored to your style,
+                audience, and objectives.
               </p>
             </div>
           </div>
@@ -95,8 +107,8 @@ const ServicesPage = () => {
             <div className="lg:w-1/2 my-4">
               <img
                 className=" h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-                src={HeroImage}
-                alt="HeroImage"
+                src={ProductionImage}
+                alt="Production Image"
               ></img>
             </div>
             <div className="lg:w-1/2 sm:text-center lg:text-left flex flex-col justify-center">
@@ -108,8 +120,11 @@ const ServicesPage = () => {
               </h3>
 
               <p className="mt-3 text-white opacity-75 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-auto lg:ml-0">
-                Encompassing a range of content types whether it be story,
-                eduction or ad focused.
+                Quality content requires expert execution. We handle every step
+                of the production process—scripting, filming, and directing—to
+                create professional, engaging videos that captivate your
+                audience. No matter the style, we cover range of content types
+                whether it be story, eduction or ad focused.
               </p>
             </div>
           </div>
@@ -122,12 +137,42 @@ const ServicesPage = () => {
             <div className="lg:w-1/2 my-4">
               <img
                 className=" h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-                src={HeroImage}
-                alt="HeroImage"
+                src={PostImage}
+                alt="Post Production Image"
+              ></img>
+            </div>
+            <div className="lg:w-1/2 sm:text-center lg:text-right flex flex-col justify-center">
+              {/* <h2 className="text-black text-4xl font-semibold text-white opacity-75">
+                Case Study
+              </h2> */}
+              <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-white">
+                Post Production
+              </h3>
+
+              <p className="mt-3 text-white opacity-75 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-auto lg:mr-0">
+                Editing is where the magic happens and we believe collaboration
+                is key. We work closely with you during the editing process to
+                ensure your vision is fully realized. From cutting-edge visuals
+                to seamless audio design, we deliver polished, dynamic videos
+                that resonate with your audience.
+              </p>
+            </div>
+          </div>
+        </div>
+      </Fade>
+
+      <Fade bottom cascade>
+        <div className="max-w-7xl mx-auto lg:px-8 md:px-3">
+          <div className="mx-auto max-w-7xl px-4 sm:mt-10 sm:px-6 md:mt-10 lg:mt-10 lg:px-0 xl:mt-10 flex flex-col lg:flex-row-reverse gap-3 lg:flex-justify">
+            <div className="lg:w-1/2 my-4">
+              <img
+                className=" h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
+                src={PackagingImage}
+                alt="Packaging Image"
               ></img>
             </div>
 
-            <div className="lg:w-1/2 sm:text-center lg:text-right flex flex-col justify-center">
+            <div className="lg:w-1/2 sm:text-center lg:text-left flex flex-col justify-center">
               {/* <h2 className="text-black text-4xl font-semibold text-white opacity-75">
                 Case Study
               </h2> */}
@@ -135,11 +180,11 @@ const ServicesPage = () => {
                 Packaging
               </h3>
 
-              <p className="mt-3 text-white opacity-75 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-auto lg:mr-0">
+              <p className="mt-3 text-white opacity-75 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-auto lg:ml-0">
                 Finalizing videos involves creating appealing thumbnails,
                 titles, and descriptions to attract viewers. This includes
                 designing eye-catching thumbnails that accurately represent the
-                content and Crafting compelling titles that pique curiosity and
+                content and crafting compelling titles that pique curiosity and
                 encourage clicks is also essential.
               </p>
             </div>
